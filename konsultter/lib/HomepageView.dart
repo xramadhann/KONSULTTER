@@ -20,6 +20,7 @@ class _HomepageState extends State<Homepage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Row(
+                //ini adalah cara buat Row
                 children: <Widget>[
                   Text("a"),
                   Text("b"),
@@ -27,10 +28,14 @@ class _HomepageState extends State<Homepage> {
                 ],
               ),
               Column(
+                //ini adalah cara buat column
                 children: <Widget>[
                   Text("a"),
                   Text("b"),
-                  Text("c"),
+                  Image(
+                    image: AssetImage("assets/images/Logo DSC 2.jpg"),
+                    height: 50,
+                  ), //ini adalah cara input image
                 ],
               )
             ],
